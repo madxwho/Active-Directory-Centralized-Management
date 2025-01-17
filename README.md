@@ -10,6 +10,15 @@ This project involves deploying a centralized Active Directory (AD) domain using
 - Enforce robust security policies for password management, account lockout, and auditing.
 - Validate compliance with NIST and CIS benchmarks.
 
+## Technologies Used
+   - VirtualBox: For creating virtualized environments.
+   - Windows Server 2022: Configured as the Domain Controller.
+   - Windows 10: Configured as the client machine for testing.
+   - PowerShell: Used for automation, user provisioning, and applying GPOs.
+   - Group Policy Objects (GPOs): To enforce centralized management policies.
+   - Active Directory (AD): For centralized user and computer management.
+   - Network Configuration: Internal VirtualBox network setup for AD connectivity. 
+
 ## Implementation Steps
 1. **Setup Active Directory**:
    - Installed Windows Server 2022 and configured it as a domain controller.
